@@ -4,11 +4,13 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { InformationComponent } from './information/information.component';
+import { ShannonComponent } from './form/form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    InformationComponent
+    InformationComponent,
+    ShannonComponent
   ],
   imports: [
     BrowserModule,
@@ -18,4 +20,5 @@ import { InformationComponent } from './information/information.component';
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

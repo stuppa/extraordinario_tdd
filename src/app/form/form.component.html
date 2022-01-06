@@ -1,0 +1,23 @@
+<div class="container mb-5 mt-3">
+    <form id="calculattorForm" [formGroup]="formulaForm" (ngSubmit)="onSubmit()" class="form-horizontal">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title text-center mb-4" style="font-size: 16px;"><b>Calcular la entropía 
+                    de Shannon en una cadena carácteres</b></h3>
+            </div>
+        </div>
+        <div class="panel-body">
+            <div class="d-flex align-items-end col form-group text-center">
+                <input id="str" formControlName="str" type="text" class="form-control">
+            </div>    
+        </div>
+        <div class="panel-footer mt-3 text-center mt-4">
+            <button class="btn btn-primary" id="btnCalculate" type="submit">Calcular</button>
+        </div>
+    </form>
+    <div class="container mt-4 text-center rounded pt-3 pb-1">
+        <p class="text-justify"><b>Entropía de Shannon</b></p>
+        <p class="text-justify">Resultado numérico</p>
+        <p><b>{{ resultado }}</b></p>
+    </div>
+</div>
