@@ -2,26 +2,23 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
-## Development server
+## Visión y alcance
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+[Vision_y_alcance.pdf](https://github.com/stuppa/extraordinario_tdd/files/7831961/Vision_y_alcance.pdf)
 
-## Code scaffolding
+[VIsion_y_alcance_tex.zip](https://github.com/stuppa/extraordinario_tdd/files/7831974/VIsion_y_alcance_tex.zip)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Arquitectura tecnológica
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![Arquitectura_tecnologica](https://user-images.githubusercontent.com/72483570/148623265-e4752413-6b6c-4819-ae97-03dfe099b257.png)
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Branch rules
 
-## Running end-to-end tests
+![branch_rules](https://user-images.githubusercontent.com/72483570/148623281-1cbac809-05aa-402c-a596-8a88fe78d06e.png)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## Test code coverage
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![code_coverage](https://user-images.githubusercontent.com/72483570/148623290-a7653a2e-47e9-4cd0-b7d6-8a2e8c358be9.png)
